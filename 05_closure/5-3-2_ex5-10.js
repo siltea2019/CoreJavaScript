@@ -1,7 +1,7 @@
 var car = {
 	fuel: Math.ceil(Math.random() * 10 + 10), // 연료(L)
-	power: Math.ceil(Math.random() * 3 + 2), // 연료(L)
-	moved: 0,
+	power: Math.ceil(Math.random() * 3 + 2), // 연비(km/L)
+	moved: 0, // 총 이동 거리
 	run: function () {
 		var km = Math.ceil(Math.random() * 6);
 		var wasteFuel = km / this.power;
